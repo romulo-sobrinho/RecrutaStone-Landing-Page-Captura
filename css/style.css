@@ -1,0 +1,332 @@
+:root {
+  --primary: #12aa4b;
+  --secondary: #00e075;
+  --tertiary: #95989a;
+  --color-hover: #0d7c37;
+  --color-dark: #07431e;
+  --text-primary: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* Event description */
+#event-description {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/banner2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2em;
+  padding: 2em;
+}
+
+#disclaimer {
+  text-align: center;
+}
+
+#disclaimer img {
+  width: 300px;
+  margin-bottom: 2em;
+}
+
+#disclaimer .about-event {
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 350px;
+  margin-bottom: 1em;
+}
+
+#disclaimer p {
+  margin-bottom: 0.5em;
+}
+
+#disclaimer .event-date {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+#subscription-form {
+  background-color: var(--tertiary);
+  width: 80%;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+#subscription-form p {
+  color: var(--text-secondary);
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.form-group label {
+  color: var(--text-tertiary);
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-group input,
+select {
+  padding: 6px 8px;
+  outline: none;
+  border-radius: 6px;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: var(--color-hover);
+}
+
+/* Skills */
+#skills-recruit {}
+
+#skills-recruit h2 {
+  background-color: var(--tertiary);
+  padding: 2em 0.5em;
+  color: var(--text-secondary);
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#skills-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+.skill-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+  background-color: red;
+}
+
+#skill-image-1 {
+  background: url(../img/skill-smart.svg);
+}
+
+#skill-image-2 {
+  background: url(../img/skill-energy.svg);
+}
+
+#skill-image-3 {
+  background: url(../img/skill-integrity.svg);
+}
+
+.skill h3 {
+  color: var(--color-dark);
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+
+.skill p {
+  width: 80%;
+  text-align: center;
+}
+
+
+/* Banner */
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+#banner-title {
+  color: #12aa4c51;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#banner-description {
+  color: var(--text-primary);
+  width: 80%;
+  position: absolute;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+#banner-description span {
+  font-weight: bold;
+}
+
+#banner .btn {
+  width: 80%;
+}
+
+/* Steps */
+
+#process-steps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#process-steps h2 {
+  padding: 2em 0.5em;
+  color: var(--text-secondary);
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#steps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.step-card {
+  width: 320px;
+  height: 350px;
+  padding: 1em 0.5em;
+  background-color: var(--primary);
+  margin-bottom: 2em;
+}
+
+.step-card p {
+  color: var(--text-primary);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.step-description {
+  width: 100%;
+  height: 90%;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.step-description h3 {
+  color: var(--text-secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.step-description p {
+  color: var(--text-secondary);
+  text-transform: none;
+  line-height: 1.5em;
+}
+
+/* Social Networks */
+#social-networks {
+  width: 100%;
+  height: auto;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3em 2em;
+}
+
+#social-networks p {
+  width: 80%;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.social-networks-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.social-networks-icon a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.social-networks-img {
+  width: 50px;
+}
+
+#social-1 {
+  background: url(../img/linkedin.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer h3 {
+  color: var(--text-primary);
+  font-size: 0.8em;
+  font-weight: 400;
+}
