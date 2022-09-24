@@ -6,7 +6,7 @@
 
 <h1 align="center">Página de Captura Fake para o processo seletivo do RecrutaStone</h1>
 <br>
-<h2 align="center"><a href="#" target="_blank">Clique aqui e acesse o preview web</a></h2>
+<h2 align="center"><a href="https://romulo-sobrinho.github.io/RecrutaStone-Landing-Page-Captura/" target="_blank">Clique aqui e acesse o preview web</a></h2>
 <br>
 
 ## Objetivo
