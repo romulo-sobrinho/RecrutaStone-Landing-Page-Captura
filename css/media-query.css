@@ -25,6 +25,7 @@
 
   /* Event description */
   #event-description {
+    height: 85vh;
     flex-direction: row;
     gap: 0em;
     padding: 2em;
@@ -44,7 +45,20 @@
 
   /* Skills */
   .skill {
-    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .skill-description {
+    width: 50%;
+  }
+
+  #skill-image-2 {
+    order: 2;
   }
 
   /* Banner */
@@ -78,6 +92,7 @@
 
   /* Event description */
   #event-description {
+    height: 85vh;
     flex-direction: row;
     gap: 0em;
     padding: 2em;
@@ -96,8 +111,16 @@
   }
 
   /* Skills */
+  #skills {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
   .skill {
-    max-width: 60%;
+    max-width: 30%;
   }
 
   /* Banner */
