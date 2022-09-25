@@ -103,10 +103,6 @@ select {
   font-weight: bold;
 }
 
-.btn:hover {
-  background-color: var(--color-hover);
-}
-
 /* Skills */
 #skills-recruit {}
 
@@ -142,7 +138,6 @@ select {
   background-size: cover;
   background-position: center;
   margin-bottom: 1em;
-  background-color: red;
 }
 
 #skill-image-1 {
@@ -227,7 +222,7 @@ select {
   text-align: center;
 }
 
-#steps {
+.steps {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -276,7 +271,7 @@ select {
 #social-networks {
   width: 100%;
   height: auto;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(227, 227, 227);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -290,7 +285,7 @@ select {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .social-networks-icon {

@@ -1,0 +1,128 @@
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+  /* Event description */
+  #subscription-form {
+    width: 60%;
+  }
+
+  /* Skills */
+  .skill {
+    max-width: 70%;
+  }
+
+  /* Banner */
+  #banner-description {
+    width: 60%;
+  }
+
+  #banner .btn {
+    width: 60%;
+  }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  /* Event description */
+  #event-description {
+    flex-direction: row;
+    gap: 0em;
+    padding: 2em;
+  }
+
+  #disclaimer {
+    text-align: left;
+  }
+
+  #subscription-form {
+    width: 30%;
+  }
+
+  .btn:hover {
+    background-color: var(--color-hover);
+  }
+
+  /* Skills */
+  .skill {
+    max-width: 60%;
+  }
+
+  /* Banner */
+  #banner-description {
+    width: 40%;
+  }
+
+  #banner .btn {
+    width: 40%;
+  }
+
+  #banner .btn:hover {
+    background-color: var(--color-hover);
+  }
+
+  /* Steps */
+  .steps {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .step-card {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  /* Event description */
+  #event-description {
+    flex-direction: row;
+    gap: 0em;
+    padding: 2em;
+  }
+
+  #disclaimer {
+    text-align: left;
+  }
+
+  #subscription-form {
+    width: 22%;
+  }
+
+  .btn:hover {
+    background-color: var(--color-hover);
+  }
+
+  /* Skills */
+  .skill {
+    max-width: 60%;
+  }
+
+  /* Banner */
+  #banner-description {
+    width: 40%;
+  }
+
+  #banner .btn {
+    width: 40%;
+  }
+
+  #banner .btn:hover {
+    background-color: var(--color-hover);
+  }
+
+  /* Steps */
+  .steps {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .step-card {
+    margin-bottom: 2em;
+  }
+}
