@@ -25,6 +25,13 @@
   ✔️ Posicionamento e alinhamento de elementos com flex box <br>
   ✔️ Uso de animações com @keyframes e transições no CSS <br>
  
+## Previews
+
+![banner](https://user-images.githubusercontent.com/68918326/192147234-ddba0b36-1cad-42ec-91d2-d7623aa39e9e.PNG)
+<br>
+
+![steps](https://user-images.githubusercontent.com/68918326/192147275-f48ae292-577a-4808-aaca-41ca71a06a5d.PNG)
+
 <hr>
 <h3 align="center">🎖️PROJETO EM CONSTRUÇÃO🎖️</h3>
 <hr>
