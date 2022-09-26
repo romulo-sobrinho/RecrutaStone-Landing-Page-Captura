@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 992px) {
+@media (min-width: 600px) {
 
   /* Event description */
   #subscription-form {
@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) {
 
   /* Event description */
   #event-description {
@@ -120,7 +120,17 @@
   }
 
   .skill {
+    display: flex;
+    flex-direction: column;
     max-width: 30%;
+  }
+
+  .skill-description {
+    width: 100%;
+  }
+
+  #skill-image-2 {
+    order: 0;
   }
 
   /* Banner */
