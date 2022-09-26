@@ -1,7 +1,7 @@
 ![Rômulo Sobrinho](https://user-images.githubusercontent.com/68918326/180336596-0f001ae5-5ce5-4175-bcea-78eff17add17.PNG)
 
 <hr>
-<h3 align="center">🎖️PROJETO EM CONSTRUÇÃO🎖️</h3>
+<h3 align="center">🎖️PROJETO EM FINALIZADO🎖️</h3>
 <hr>
 
 <h1 align="center">Página de Captura Fake para o processo seletivo do RecrutaStone</h1>
@@ -11,7 +11,7 @@
 
 ## Objetivo
 <p align="center">
-  Criar um site com HTML, CSS e JavaScript sem a utilização de frameworks, objetivando a criação de uma landing page utilizando o modelo mobile-first, bem como implementação de layouts responsivos, posicionamento e alinhamento com o uso de flexbox. Além da utilização do DOM (Document Object Model) para manipulação de elementos HTML e CSS com o javascript.
+  Criar um site com HTML, CSS sem a utilização de frameworks, objetivando a criação de uma landing page utilizando o modelo mobile-first, bem como implementação de layouts responsivos, posicionamento e alinhamento com o uso de flexbox.
 </p>
 
 
@@ -33,5 +33,5 @@
 ![steps](https://user-images.githubusercontent.com/68918326/192147275-f48ae292-577a-4808-aaca-41ca71a06a5d.PNG)
 
 <hr>
-<h3 align="center">🎖️PROJETO EM CONSTRUÇÃO🎖️</h3>
+<h3 align="center">🎖️PROJETO EM FINALIZADO🎖️</h3>
 <hr>
